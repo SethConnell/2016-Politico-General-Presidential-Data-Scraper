@@ -1,5 +1,4 @@
 import time
-import pymysql.cursors
 import requests
 import ast
 import unicodedata
@@ -16,7 +15,7 @@ import re
 newfile = open("data.csv", "w")
 
 def addtofile(x):
-    f.write(str(x))
+    newfile.write(str(x))
 
 #Normalizes unicode data and incodes it to ascii.
 def cleanUp(x):

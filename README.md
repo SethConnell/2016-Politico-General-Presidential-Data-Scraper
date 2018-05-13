@@ -8,5 +8,6 @@ This python script can extract the percentage of voters who voted for Donald Tru
 ## What you'll need:
 * Selenium.
 * BeautifulSoup4
+* Urllib
 
 You can google how to install them yourself.
